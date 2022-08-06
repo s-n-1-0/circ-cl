@@ -6,7 +6,7 @@ xls = pd.read_excel(f"{top_dir}/abcd.xls",header=None,sheet_name="BB")
 
 class Card100:
     def __init__(self,card_num,xls):
-        idx = card_num + 1
+        idx = card_num - 1
         row = xls.values[idx,:]
         self.card_num = card_num
         self.key = row[7]
