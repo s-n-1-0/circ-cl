@@ -1,3 +1,5 @@
 *.xls
+*.png
+*.jpg
 .ipynb_*
 **/__pycache__/**
