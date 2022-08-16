@@ -1,5 +1,6 @@
 *.xls
 *.png
 *.jpg
+*.traineddata
 .ipynb_*
 **/__pycache__/**
